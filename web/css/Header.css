@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap');
+
+header {
+    width: 100%;
+    background-color: #391847;
+}
+
+header div 
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+div .fa {
+    font-size:25px;
+    float: left;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0;
+    position: relative;
+}
+
+ol {
+    font-size: .8vw;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+.fa-phone {
+    padding-top: 1%;
+}
+
+.fa-envelope {
+    padding-top: 2%;
+
+}
+
+.fa-map-marker {
+    padding-top: 2%;
+}
+
+.fa-facebook {
+    padding-top: 3%;
+}
+
+.email {
+    margin-top: 5px;
+    position: relative;
+}
+
+.email p{
+    margin-top: 6px;
+
+}
+
+.contextHeader p{
+    padding-top: 1%;
+    font-size: 2vw;
+}
+
+.location {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 0;
+    position: relative;
+}
+
+.location ol {
+    margin-top: 3px;
+}
+
+.socialMedia {
+    margin-top: 5px;
+    position: relative;
+}
+
+.socialMedia p {
+    margin-top: 6px;
+}
+
+/*header div div {
+    padding-top: .8%;
+    padding: auto;
+}*/
+
+header div p {
+   
+    display: block;
+    font-size: clamp(10px, 80%, 10px);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+footer div 
+{
+    display: flex;
+    justify-content: space-around;
+}
+footer div h2 {
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    width: 15%;
+    text-align: left;
+    font-size: 1.3vw;
+}
+
+.footInfo {
+    display: flex;
+    flex-direction: column;
+
+}
+.footInfo h3 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding-top: 2%;
+    text-align: left;
+
+}
+
+.footInfo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9vw;
+    text-align: left;             
+}
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 1024px){
+    div .fa {
+        font-size:20px;
+        float: left;
+    }
+    .HeaderContainer {
+        margin-top: 0; 
+    }
+    .fa {
+        margin-top: 2px;
+    }
+    
+    .fa-phone {
+        margin-top: 7px;
+    }
+    
+    .fa-map-marker {
+        margin-top: 3px;
+    }
+    
+    .contact ol {
+        margin-top: 5px;
+    }
+    
+    .location ol {
+        margin-top: 5px;
+    }
+    
+    .email {
+        margin-top: 9px;
+    }
+    
+    .socialMedia {
+        margin-top: 9px;
+    }
+    
+    .contextHeader {
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .fa {
+        display: none;
+    }
+
+    .HeaderContainer p{
+        font-size: 5vw;
+        margin-top: 2.5%;
+        padding: 0;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .socialMedia {
+        display: none;
+    }
+
+    footer {
+        height: 10% !important;
+    }
+
+    footer div h2 {
+        font-size: 2vw;
+        width: 20%;
+    }
+
+    .footInfo h3 {
+        font-size: 2vw;
+        font-weight: normal;
+    }
+
+    .footInfo i {
+        font-size: 2vw;
+    }
+
+    .footInfo p {
+        font-size: 1.7vw;
+    }
+
+    footer p {
+        font-size: 1.5vw;
+
+    }
+}
