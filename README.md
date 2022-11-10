@@ -1,5 +1,5 @@
 # eruditio_academy
-A web application created using java which was done as a project for the completion of the subject ICS2609 - APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES 2 (ENTERPRISE-BACK-END)
+A web application created using java which was done as a project for the completion of the subject ICS2609 - APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES 2 (ENTERPRISE-BACK-END). The application consists of the use of a local database for its functionality, log in and sign in, change password, and report generation. 
 
 #Sample Snippets of the runtime of the Application
 
