@@ -3,22 +3,22 @@ A web application created using java which was done as a project for the complet
 
 #Sample Snippets of the runtime of the Application
 
-##Landing Page
+## Landing Page
 <p align="center">
 <img src="s1.png" width="600" title="Landing Page">
 </p>
 
-##Log In Page
+## Log In Page
 <p align="center">
 <img src="s2.png" width="600" title="Login Page">
 </p>
 
-##Dashboard
+## Dashboard
 <p align="center">
 <img src="s3.png" width="600" title="Dashboard Page">
 </p>
 
-##Report Generated
+## Report Generated
 <p align="center">
 <img src="s4.png" width="600" title="Report Generated">
 </p>
